@@ -1,0 +1,485 @@
+/* Default Css */
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@400;600;700&display=swap");
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-track, body::-webkit-scrollbar-track {
+  background: #c1c1c1;
+}
+html::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
+  background-color: #222;
+  outline: none;
+}
+html::-webkit-scrollbar-thumb:active, body::-webkit-scrollbar-thumb:active {
+  background: #f9506d;
+}
+
+body {
+  color: #555555;
+  font-size: 16px;
+  font-family: "Blinker", sans-serif;
+  font-weight: 400;
+  width: 21cm;
+  height: 29.7cm;
+  margin: 30mm 45mm 30mm 45mm;
+}
+
+img {
+  max-width: 100%;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+a:active, a:hover {
+  text-decoration: none;
+}
+
+button,
+.btn {
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+button:active, button:hover, button:focus,
+.btn:active,
+.btn:hover,
+.btn:focus {
+  outline: 0;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  color: #fff;
+  background-color: transparent;
+  outline: 0;
+  box-shadow: none;
+}
+
+.btn:hover,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Blinker", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 1.3;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+hr {
+  margin: 20px 0;
+  border-color: #352323;
+}
+
+ol {
+  list-style: decimal;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* Form */
+label {
+  color: #ddd;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+*::-moz-selection {
+  background: #f9506d;
+  color: #fff;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #f9506d;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #f9506d;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* Placeholder */
+*::-moz-placeholder {
+  color: #555555;
+  font-size: 16px;
+  opacity: 1;
+}
+
+*::placeholder {
+  color: #555555;
+  font-size: 16px;
+  opacity: 1;
+}
+
+/* Button */
+.btn-theme {
+  color: #fff;
+  border-color: #f9506d;
+  background: #f9506d;
+}
+.btn-theme:hover {
+  background: #f9506d;
+  color: #fff;
+  border-color: #f9506d;
+}
+
+.btn-rounded {
+  border-radius: 100% !important;
+}
+
+.btn-square {
+  border-radius: 0 !important;
+}
+
+/* Bg Color */
+.bg-gray {
+  background: #ddd;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.bg-black {
+  background: #000;
+}
+
+.bg-theme {
+  background: #f9506d;
+}
+
+.bg-dark {
+  background-color: #101a23 !important;
+}
+
+.bg-off-white {
+  background-color: #f7f7f7;
+}
+
+.bg-off-white-2 {
+  background-color: #f1f8ff;
+}
+
+.bg-blue {
+  background-color: #00315c !important;
+}
+
+.bg-yellow {
+  background-color: #fea116 !important;
+}
+
+.bg-pink {
+  background-color: #fc4557 !important;
+}
+
+.bg-egg-blue {
+  background-color: #003d73 !important;
+}
+
+.bg-purple {
+  background-color: #5851a7 !important;
+}
+
+/* Text Color */
+.gray-color {
+  background: #ddd;
+}
+
+.white-color {
+  color: #fff;
+}
+
+.black-color {
+  color: #000;
+}
+
+.theme-color {
+  color: #f9506d;
+}
+
+/* Others Common Css Here :) */
+.table-row {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+.separator {
+  border-top: 1px solid #f2f2f2;
+}
+
+[data-overlay] {
+  position: relative;
+  z-index: 1;
+}
+[data-overlay]::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  z-index: -1;
+}
+
+[data-overlay=light]::before {
+  background-color: #fff;
+}
+
+[data-overlay=dark]::before {
+  background-color: #000a2d;
+}
+
+[data-overlay=theme]::before {
+  background-color: #f9506d;
+}
+
+[data-opacity="1"]::before {
+  opacity: 0.1;
+}
+
+[data-opacity="2"]::before {
+  opacity: 0.2;
+}
+
+[data-opacity="3"]::before {
+  opacity: 0.3;
+}
+
+[data-opacity="4"]::before {
+  opacity: 0.4;
+}
+
+[data-opacity="5"]::before {
+  opacity: 0.5;
+}
+
+[data-opacity="6"]::before {
+  opacity: 0.6;
+}
+
+[data-opacity="7"]::before {
+  opacity: 0.7;
+}
+
+[data-opacity="8"]::before {
+  opacity: 0.8;
+}
+
+[data-opacity="9"]::before {
+  opacity: 0.9;
+}
+
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1200px;
+  }
+}
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+  padding-right: var(--bs-gutter-x, 15px);
+  padding-left: var(--bs-gutter-x, 15px);
+}
+
+.row {
+  --bs-gutter-x: 30px;
+}
+
+.name-area .name {
+  font-size: 44px;
+  line-height: 35px;
+  margin-bottom: 5px;
+}
+.name-area .position {
+  font-size: 22px;
+  padding-top: 3px;
+  font-weight: 500;
+}
+
+.contact-area .contact {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 3px 12px;
+  margin: 20px -12px;
+}
+
+.address-wrap .address {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+.address-wrap .address-bar {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.phone-wrap .phone {
+  font-size: 18px;
+  margin: 0;
+}
+.phone-wrap a {
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+}
+
+.email-wrap .email {
+  font-size: 18px;
+  margin: 0;
+}
+.email-wrap a {
+  color: #fff;
+  font-size: 16px;
+}
+
+.github-wrap .github {
+  font-size: 18px;
+  margin: 0;
+}
+.github-wrap a {
+  color: #fff;
+  font-size: 16px;
+}
+
+.skills-area .skills {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 3px 12px;
+  margin: 20px -12px;
+}
+.skills-area .skills-list ul {
+  margin: 0;
+  padding: 0 16px;
+}
+.skills-area .skills-list ul li {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.summary-area p {
+  margin-bottom: 40px;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+.title-area .title {
+  color: #343434;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.title-area .location {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.responsible-list ul {
+  padding: 0 16px;
+}
+.responsible-list ul li {
+  font-size: 16px;
+}
+
+.work-history {
+  color: #003D73;
+  font-size: 22px;
+  margin: 0;
+}
+
+/*------------------------------------------------------------------------------
+	Template Name: Starter Project Template.
+-------------------------------------------------------------------------------*/
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,124 @@
+@use "common" as *;
+
+.name-area{
+    .name{
+        font-size: 44px;
+        line-height: 35px;
+        margin-bottom: 5px;
+    }
+    .position{
+        font-size: 22px;
+        padding-top: 3px;
+        font-weight: 500;
+    }
+}
+
+.contact-area{
+    .contact{
+        font-size: 25px;
+        font-weight: 700;
+        padding: 3px 12px;
+        margin: 20px -12px;
+    }
+}
+
+.address-wrap{
+    .address{
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+    .address-bar{
+        font-size: 16px;
+        font-weight: 500;
+        margin: 0;
+    }
+}
+
+.phone-wrap{
+    .phone{
+        font-size: 18px;
+        margin: 0;
+    }
+    a{
+        color: #fff;
+        font-size: 16px;
+        margin: 0;
+    }
+}
+
+.email-wrap{
+    .email{
+        font-size: 18px;
+        margin: 0;
+    }
+    a{
+        color: #fff;
+        font-size: 16px;
+    }
+}
+
+.github-wrap{
+    .github{
+        font-size: 18px;
+        margin: 0;
+    }
+    a{
+        color: #fff;
+        font-size: 16px;
+    }
+}
+
+.skills-area{
+    .skills{
+        font-size: 25px;
+        font-weight: 700;
+        padding: 3px 12px;
+        margin: 20px -12px;
+    }
+    .skills-list{
+        ul{
+            margin: 0;
+            padding: 0 16px;
+            li{
+                color: #fff;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+.summary-area{
+    p{
+        margin-bottom: 40px;
+    }
+}
+
+hr{
+    margin: 10px 0;
+}
+
+.title-area{
+    .title{
+        color: #343434;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+    .location{
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+}
+.responsible-list{
+    ul{
+        padding: 0 16px;
+        li{
+            font-size: 16px;
+        }
+    }
+}
+
+.work-history{
+    color: #003D73;
+    font-size: 22px;
+    margin: 0;
+}

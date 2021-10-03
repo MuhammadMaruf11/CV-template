@@ -1,0 +1,88 @@
+@use "common" as *;
+
+[data-overlay] {
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    z-index: -1;
+  }
+}
+
+[data-overlay="light"] {
+  &::before {
+    background-color: #fff;
+  }
+}
+
+[data-overlay="dark"] {
+  &::before {
+    background-color: #000a2d;
+  }
+}
+
+[data-overlay="theme"] {
+  &::before {
+    background-color: $theme-color;
+  }
+}
+
+[data-opacity="1"] {
+  &::before {
+    opacity: 0.1;
+  }
+}
+
+[data-opacity="2"] {
+  &::before {
+    opacity: 0.2;
+  }
+}
+
+[data-opacity="3"] {
+  &::before {
+    opacity: 0.3;
+  }
+}
+
+[data-opacity="4"] {
+  &::before {
+    opacity: 0.4;
+  }
+}
+
+[data-opacity="5"] {
+  &::before {
+    opacity: 0.5;
+  }
+}
+
+[data-opacity="6"] {
+  &::before {
+    opacity: 0.6;
+  }
+}
+
+[data-opacity="7"] {
+  &::before {
+    opacity: 0.7;
+  }
+}
+
+[data-opacity="8"] {
+  &::before {
+    opacity: 0.8;
+  }
+}
+
+[data-opacity="9"] {
+  &::before {
+    opacity: 0.9;
+  }
+}
