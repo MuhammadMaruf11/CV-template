@@ -1,10 +1,28 @@
 @use "common" as *;
 
+.profile-area{
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    max-width: 250px;
+    margin: 0 auto;
+    img{
+        border-radius: 50%;
+    }
+}
+
 .name-area{
     .name{
-        font-size: 44px;
-        line-height: 35px;
+        font-size: 46px;
+        line-height: 40px;
         margin-bottom: 5px;
+        @include mq(md){
+            font-size: 38px;
+            line-height: 35px;
+        }
+        @include mq(xs){
+            font-size: 55px;
+            line-height: 50px;
+        }
     }
     .position{
         font-size: 22px;
@@ -68,6 +86,39 @@
     }
 }
 
+.linkedIn-wrap{
+    .linkedIn{
+        font-size: 18px;
+        margin: 0;
+    }
+    a{
+        color: #fff;
+        font-size: 16px;
+    }
+}
+
+.facebook-wrap{
+    .facebook{
+        font-size: 18px;
+        margin: 0;
+    }
+    a{
+        color: #fff;
+        font-size: 16px;
+    }
+}
+
+.website-wrap{
+    .website{
+        font-size: 18px;
+        margin: 0;
+    }
+    a{
+        color: #fff;
+        font-size: 16px;
+    }
+}
+
 .skills-area{
     .skills{
         font-size: 25px;
@@ -83,13 +134,17 @@
                 color: #fff;
                 font-size: 16px;
                 font-weight: 500;
+                line-height: 2.2;
+                @include mq(md){
+                    line-height: 2.4;
+                }
             }
         }
     }
 }
 .summary-area{
     p{
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 }
 
@@ -121,4 +176,24 @@ hr{
     color: #003D73;
     font-size: 22px;
     margin: 0;
+}
+
+.col-md-8.col-12.pt-20.pr-80{
+    @include mq(md){
+        padding-right: 0;
+    }
+    @include mq(xs){
+        padding-right: 0;
+    }
+    
+}
+
+.duration-time{
+    line-height: 24px;
+    span{
+        line-height: 1;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
 }

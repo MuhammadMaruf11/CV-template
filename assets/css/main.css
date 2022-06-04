@@ -1,5 +1,5 @@
 /* Default Css */
-@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro:wght@400;700&display=swap");
 html::-webkit-scrollbar, body::-webkit-scrollbar {
   width: 10px;
 }
@@ -17,11 +17,8 @@ html::-webkit-scrollbar-thumb:active, body::-webkit-scrollbar-thumb:active {
 body {
   color: #555555;
   font-size: 16px;
-  font-family: "Blinker", sans-serif;
+  font-family: "Tai Heritage Pro", serif;
   font-weight: 400;
-  width: 21cm;
-  height: 29.7cm;
-  margin: 30mm 45mm 30mm 45mm;
 }
 
 img {
@@ -87,7 +84,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Blinker", sans-serif;
+  font-family: "Tai Heritage Pro", serif;
   color: #fff;
   font-weight: 700;
   margin-bottom: 20px;
@@ -363,7 +360,7 @@ label {
 
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1200px;
+    max-width: 1050px;
   }
 }
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
@@ -375,10 +372,32 @@ label {
   --bs-gutter-x: 30px;
 }
 
+.profile-area {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 250px;
+  margin: 0 auto;
+}
+.profile-area img {
+  border-radius: 50%;
+}
+
 .name-area .name {
-  font-size: 44px;
-  line-height: 35px;
+  font-size: 46px;
+  line-height: 40px;
   margin-bottom: 5px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .name-area .name {
+    font-size: 38px;
+    line-height: 35px;
+  }
+}
+@media (max-width: 767px) {
+  .name-area .name {
+    font-size: 55px;
+    line-height: 50px;
+  }
 }
 .name-area .position {
   font-size: 22px;
@@ -431,6 +450,33 @@ label {
   font-size: 16px;
 }
 
+.linkedIn-wrap .linkedIn {
+  font-size: 18px;
+  margin: 0;
+}
+.linkedIn-wrap a {
+  color: #fff;
+  font-size: 16px;
+}
+
+.facebook-wrap .facebook {
+  font-size: 18px;
+  margin: 0;
+}
+.facebook-wrap a {
+  color: #fff;
+  font-size: 16px;
+}
+
+.website-wrap .website {
+  font-size: 18px;
+  margin: 0;
+}
+.website-wrap a {
+  color: #fff;
+  font-size: 16px;
+}
+
 .skills-area .skills {
   font-size: 25px;
   font-weight: 700;
@@ -445,10 +491,16 @@ label {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
+  line-height: 2.2;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .skills-area .skills-list ul li {
+    line-height: 2.4;
+  }
 }
 
 .summary-area p {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 hr {
@@ -476,6 +528,27 @@ hr {
   color: #003D73;
   font-size: 22px;
   margin: 0;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-8.col-12.pt-20.pr-80 {
+    padding-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .col-md-8.col-12.pt-20.pr-80 {
+    padding-right: 0;
+  }
+}
+
+.duration-time {
+  line-height: 24px;
+}
+.duration-time span {
+  line-height: 1;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 /*------------------------------------------------------------------------------
