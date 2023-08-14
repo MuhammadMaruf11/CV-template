@@ -1,0 +1,1 @@
+sass --watch D:\mProject\portfolio\assets\scss\main.scss:D:\mProject\portfolio\assets\css\main.css
